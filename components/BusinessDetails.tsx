@@ -15,8 +15,10 @@ export function BusinessDetails({ dark = false }: { dark?: boolean }) {
       ),
     },
     { label: "Phone", value: <a href={`tel:${site.phone.tel}`}>{site.phone.display}</a> },
-    { label: "General inquiries", value: <a href={`mailto:${site.email.support}`}>{site.email.support}</a> },
-    { label: "Management", value: <a href={`mailto:${site.email.management}`}>{site.email.management}</a> },
+    { label: "Email", value: <a href={`mailto:${site.email.support}`}>{site.email.support}</a> },
+    ...(site.email.management !== site.email.support
+      ? [{ label: "Management", value: <a href={`mailto:${site.email.management}`}>{site.email.management}</a> }]
+      : []),
     { label: "Office hours", value: site.hours },
   ];
   return (

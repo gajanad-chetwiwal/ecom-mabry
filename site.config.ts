@@ -14,7 +14,7 @@ export const site = {
   founder: "Mabry Ann Henslee",
   founderTitle: "Founder",
 
-  url: "https://ecom-mabry.com", // TODO: your production domain
+  url: "https://ecommarby.com",
 
   phone: {
     display: "+1 (555) 010-0000", // TODO: your phone number
@@ -22,8 +22,8 @@ export const site = {
   },
 
   email: {
-    support: "support@ecom-mabry.com", // TODO: support inbox (contact form sends here)
-    management: "owner@ecom-mabry.com", // TODO: management / owner inbox
+    support: "ceo@ecommarby.com", // contact form sends here
+    management: "ceo@ecommarby.com",
   },
 
   address: {
