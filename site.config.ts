@@ -17,8 +17,8 @@ export const site = {
   url: "https://ecommarby.com",
 
   phone: {
-    display: "+1 (555) 010-0000", // TODO: your phone number
-    tel: "+15550100000", // TODO: same number, digits only with country code
+    display: "+1 (984) 403-8320",
+    tel: "+19844038320",
   },
 
   email: {
